@@ -2,7 +2,6 @@
 import random
 
 choice = input("Do you want to roll the dice? (y/n): ")
-
 while choice != "y" and choice != "n":
     print("Your choice is invalid!")
     choice = input("Do you want to roll the dice? (y/n): ")
